@@ -1,29 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T22:02:05.005Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="CEd-gXaUOKr-nynhCPgz" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T22:10:03.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="HFSP2NyZfrzxu3pagYog" version="22.0.8" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="S-5__O05gs6nP9wvUdie-80" value="Quote" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="255" width="160" height="210" as="geometry" />
+          <mxGeometry x="320" y="250" width="160" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="S-5__O05gs6nP9wvUdie-81" value="&lt;div&gt;quote_id&lt;/div&gt;&lt;div&gt;customer_id&lt;/div&gt;&lt;div&gt;employee_id&lt;br&gt;&lt;/div&gt;&lt;div&gt;quote_date&lt;/div&gt;&lt;div&gt;part_list_id&lt;br&gt;&lt;/div&gt;&lt;div&gt;discount&lt;/div&gt;&lt;div&gt;currency&lt;br&gt;&lt;/div&gt;&lt;div&gt;tax&lt;/div&gt;&lt;div&gt;est_freight_cost&lt;/div&gt;&lt;div&gt;cust_signature&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="S-5__O05gs6nP9wvUdie-80">
-          <mxGeometry y="50" width="160" height="160" as="geometry" />
+        <mxCell id="S-5__O05gs6nP9wvUdie-81" value="&lt;div&gt;quote_id&lt;/div&gt;&lt;div&gt;customer_id&lt;/div&gt;&lt;div&gt;employee_id&lt;br&gt;&lt;/div&gt;&lt;div&gt;quote_date&lt;/div&gt;&lt;div&gt;part_list_id&lt;br&gt;&lt;/div&gt;&lt;div&gt;discount&lt;/div&gt;&lt;div&gt;currency&lt;br&gt;&lt;/div&gt;&lt;div&gt;tax&lt;/div&gt;&lt;div&gt;cust_signature&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="S-5__O05gs6nP9wvUdie-80">
+          <mxGeometry y="50" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="S-5__O05gs6nP9wvUdie-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="S-5__O05gs6nP9wvUdie-80" source="S-5__O05gs6nP9wvUdie-81" target="S-5__O05gs6nP9wvUdie-81">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="S-5__O05gs6nP9wvUdie-85" value="Part" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="40" width="160" height="140" as="geometry" />
+          <mxGeometry x="80" y="30" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="S-5__O05gs6nP9wvUdie-86" value="&lt;div&gt;part_id&lt;/div&gt;&lt;div&gt;description&lt;/div&gt;&lt;div&gt;price_per_unit&lt;/div&gt;&lt;div&gt;qty_on_hand&lt;/div&gt;&lt;div&gt;qty_on_order&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="S-5__O05gs6nP9wvUdie-85">
-          <mxGeometry y="50" width="160" height="90" as="geometry" />
+        <mxCell id="S-5__O05gs6nP9wvUdie-86" value="&lt;div&gt;part_id&lt;/div&gt;&lt;div&gt;description&lt;/div&gt;&lt;div&gt;currency&lt;br&gt;&lt;/div&gt;&lt;div&gt;price_per_unit&lt;/div&gt;&lt;div&gt;qty_on_hand&lt;/div&gt;&lt;div&gt;qty_on_order&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="S-5__O05gs6nP9wvUdie-85">
+          <mxGeometry y="50" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="S-5__O05gs6nP9wvUdie-87" value="Part List" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="55" width="160" height="110" as="geometry" />
+          <mxGeometry x="320" y="50" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="S-5__O05gs6nP9wvUdie-88" value="&lt;div&gt;part_list_id&lt;/div&gt;&lt;div&gt;part_id&lt;/div&gt;&lt;div&gt;quantity&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="S-5__O05gs6nP9wvUdie-87">
-          <mxGeometry y="50" width="160" height="60" as="geometry" />
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="S-5__O05gs6nP9wvUdie-89" value="Order" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="540" width="160" height="160" as="geometry" />
+          <mxGeometry x="320" y="530" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="S-5__O05gs6nP9wvUdie-90" value="&lt;div&gt;order_id&lt;/div&gt;&lt;div&gt;quote_id&lt;/div&gt;&lt;div&gt;employee_id&lt;br&gt;&lt;/div&gt;&lt;div&gt;order_date&lt;/div&gt;&lt;div&gt;fulfill_date&lt;/div&gt;&lt;div&gt;ship_date&lt;/div&gt;&lt;div&gt;tracking_num&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="S-5__O05gs6nP9wvUdie-89">
           <mxGeometry y="50" width="160" height="110" as="geometry" />
@@ -35,16 +38,16 @@
           <mxGeometry y="50" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="S-5__O05gs6nP9wvUdie-96" value="Employee" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="300" width="160" height="120" as="geometry" />
+          <mxGeometry x="560" y="290" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="S-5__O05gs6nP9wvUdie-97" value="&lt;div&gt;employee_id&lt;/div&gt;&lt;div&gt;first_name&lt;/div&gt;&lt;div&gt;last_name&lt;/div&gt;&lt;div&gt;position&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="S-5__O05gs6nP9wvUdie-96">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="S-5__O05gs6nP9wvUdie-131" value="Shipper" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="270" width="160" height="180" as="geometry" />
+          <mxGeometry x="80" y="250" width="160" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="S-5__O05gs6nP9wvUdie-132" value="&lt;div&gt;shipper_id&lt;/div&gt;&lt;div&gt;company_name&lt;/div&gt;&lt;div&gt;address1&lt;/div&gt;&lt;div&gt;address2&lt;/div&gt;&lt;div&gt;city&lt;/div&gt;&lt;div&gt;state&lt;/div&gt;&lt;div&gt;zip_code&lt;/div&gt;&lt;div&gt;ship_cost_per_unit&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="S-5__O05gs6nP9wvUdie-131">
-          <mxGeometry y="50" width="160" height="130" as="geometry" />
+        <mxCell id="S-5__O05gs6nP9wvUdie-132" value="&lt;div&gt;shipper_id&lt;/div&gt;&lt;div&gt;company_name&lt;/div&gt;&lt;div&gt;address1&lt;/div&gt;&lt;div&gt;address2&lt;/div&gt;&lt;div&gt;city&lt;/div&gt;&lt;div&gt;state&lt;/div&gt;&lt;div&gt;zip_code&lt;/div&gt;&lt;div&gt;ship_cost_per_unit&lt;/div&gt;&lt;div&gt;ship_duration&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="S-5__O05gs6nP9wvUdie-131">
+          <mxGeometry y="50" width="160" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
