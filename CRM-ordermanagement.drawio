@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T17:59:56.528Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="AFgUDVHD8CKT3h5hE3xO" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T18:01:14.068Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="l5jc1iggykKA8C-PfPeY" version="22.0.8" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -17,10 +17,10 @@
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="S-5__O05gs6nP9wvUdie-87" value="Part List" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="130" width="160" height="120" as="geometry" />
+          <mxGeometry x="350" y="130" width="160" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="S-5__O05gs6nP9wvUdie-88" value="&lt;div&gt;part_list_id&lt;/div&gt;&lt;div&gt;part_id&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="S-5__O05gs6nP9wvUdie-87">
-          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        <mxCell id="S-5__O05gs6nP9wvUdie-88" value="&lt;div&gt;part_list_id&lt;/div&gt;&lt;div&gt;part_id&lt;/div&gt;&lt;div&gt;part_qty&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="S-5__O05gs6nP9wvUdie-87">
+          <mxGeometry y="50" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="S-5__O05gs6nP9wvUdie-89" value="Order" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="350" width="160" height="260" as="geometry" />
@@ -29,10 +29,16 @@
           <mxGeometry y="50" width="160" height="210" as="geometry" />
         </mxCell>
         <mxCell id="S-5__O05gs6nP9wvUdie-92" value="Customer" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="320" width="160" height="290" as="geometry" />
+          <mxGeometry x="345" y="490" width="160" height="290" as="geometry" />
         </mxCell>
         <mxCell id="S-5__O05gs6nP9wvUdie-93" value="&lt;div&gt;customer_id&lt;/div&gt;&lt;div&gt;customer_first_name&lt;/div&gt;&lt;div&gt;customer_last_name&lt;/div&gt;&lt;div&gt;customer_address1&lt;/div&gt;&lt;div&gt;customer_address2&lt;/div&gt;&lt;div&gt;customer_city&lt;/div&gt;&lt;div&gt;customer_state&lt;/div&gt;&lt;div&gt;customer_zip&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="S-5__O05gs6nP9wvUdie-92">
           <mxGeometry y="50" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="S-5__O05gs6nP9wvUdie-96" value="Employee" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="530" width="160" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="S-5__O05gs6nP9wvUdie-97" value="&lt;div&gt;employee_id&lt;/div&gt;&lt;div&gt;employee_first_name&lt;/div&gt;&lt;div&gt;employee_last_name&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="S-5__O05gs6nP9wvUdie-96">
+          <mxGeometry y="50" width="160" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
