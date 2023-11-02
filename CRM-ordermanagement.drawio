@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T17:07:01.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="adAQrqj3n4fKu1Rxh6Lh" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T17:08:31.259Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="dKTqEZirB6AoLpzNoaf9" version="22.0.8" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="S-5__O05gs6nP9wvUdie-80" value="Quote" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="150" width="160" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="S-5__O05gs6nP9wvUdie-81" value="&lt;div&gt;quote_id&lt;/div&gt;&lt;div&gt;customer_id&lt;/div&gt;&lt;div&gt;employee_id&lt;br&gt;&lt;/div&gt;&lt;div&gt;quote_date&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="S-5__O05gs6nP9wvUdie-80">
+        <mxCell id="S-5__O05gs6nP9wvUdie-81" value="&lt;div&gt;quote_id&lt;/div&gt;&lt;div&gt;customer_id&lt;/div&gt;&lt;div&gt;employee_id&lt;br&gt;&lt;/div&gt;&lt;div&gt;quote_date&lt;/div&gt;&lt;div&gt;part_list_id&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="S-5__O05gs6nP9wvUdie-80">
           <mxGeometry y="50" width="160" height="300" as="geometry" />
         </mxCell>
       </root>
