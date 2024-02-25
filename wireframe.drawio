@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-25T17:34:25.281Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="HTuPeH1DyY6nc0hzNbyd" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-25T17:36:56.841Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="0RRKJ05WT_Bxlfg42Xdf" version="23.1.6" type="github">
   <diagram name="Page-1" id="BUrdRSvkr-NK4CyP0dR4">
     <mxGraphModel dx="1434" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -198,6 +198,15 @@
             <mxPoint x="-60" y="50" as="sourcePoint" />
             <mxPoint x="-10" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nrD_e1n3-x52YeT1WAGy-96" value="Contact Us" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="105" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nrD_e1n3-x52YeT1WAGy-97" value="search bar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="105" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nrD_e1n3-x52YeT1WAGy-98" value="Fetch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="105" width="55" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
